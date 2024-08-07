@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window content</title>
+</head>
+
+<body>
+
+    <h1>Click to print the window content</h1>
+    <button id="btn">Print</button>
+    <script>
+        document.getElementById("btn").addEventListener("click", () => {
+            window.print();
+        })
+    </script>
+</body>
+
+</html>
